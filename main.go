@@ -1,8 +1,10 @@
 package main
 
-import "gobases/variables"
+import "gobases/operators"
 
 
 func main() {
-	variables.Variables()
+	// variables.Variables()
+
+ operators.Operators()
 }

@@ -1,10 +1,10 @@
 package main
 
-import "gobases/operators"
+import homework01 "gobases/homework-01"
 
 
 func main() {
 	// variables.Variables()
-
- operators.Operators()
+	//  operators.Operators()
+	homework01.VerifyIfCanDrive()
 }

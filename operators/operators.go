@@ -49,5 +49,27 @@ func Operators(){
 		fmt.Println("Value is false")
 	}
 
+	// Switch
+	fmt.Println("Switch")
+	switch yearsOld {
+	case 10:
+		fmt.Println("You are 10 years old")
+	case 15:
+		fmt.Println("You are 15 years old")
+	default:
+		fmt.Println("You are not 10 or 15 years old")
+	}
+
+	// Switch with no condition
+	fmt.Println("Switch with no condition")
+	switch {
+	case yearsOld < 10:
+		fmt.Println("You are less than 10 years old")
+	case yearsOld > 10 && yearsOld < 15:
+		fmt.Println("You are between 10 and 15 years old")
+	default:
+		fmt.Println("You are not 10 or 15 years old")
+	}
+
 
 }

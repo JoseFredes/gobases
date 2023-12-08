@@ -46,4 +46,13 @@ func Variables() {
 
 	var my8BitInt int8
 	fmt.Printf("my8BitInt: %d\n", my8BitInt)
+
+	var A byte = 'A'
+
+	fmt.Println(A)
+
+	var s byte = 115
+
+	fmt.Println(string(s))
+
 }

@@ -43,5 +43,11 @@ func Operators(){
 		fmt.Println("You can't drive")
 	}
 
+	if value := false; value {
+		fmt.Println("Value is true")
+	} else {
+		fmt.Println("Value is false")
+	}
+
 
 }

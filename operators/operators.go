@@ -22,4 +22,26 @@ func Operators(){
 	fmt.Println(!true)
 	fmt.Println(!false)
 
+	// Condiional operators
+	fmt.Println("Conditional operators")
+	if yearsOld > 15 {
+		fmt.Println("You can drive")
+	} else {
+		fmt.Println("You can't drive")
+	}
+
+	// Ternary operator
+	fmt.Println("Ternary operator")
+	canDrive := yearsOld > 15
+	fmt.Println(canDrive)
+
+	if canDrive {
+		fmt.Println("You can drive")
+	} else if yearsOld == 15 {
+		fmt.Println("You can't drive")
+	} else {
+		fmt.Println("You can't drive")
+	}
+
+
 }

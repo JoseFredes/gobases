@@ -1,10 +1,11 @@
 package main
 
-import homework01 "gobases/homework-01"
+import "gobases/vectors"
 
 
 func main() {
 	// variables.Variables()
 	//  operators.Operators()
-	homework01.VerifyIfCanDrive()
+	// homework01.VerifyIfCanDrive()
+	vectors.Vectors()
 }

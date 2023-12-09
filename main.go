@@ -1,6 +1,6 @@
 package main
 
-import forloop "gobases/for"
+import homework02 "gobases/homeworks2-4"
 
 
 func main() {
@@ -8,5 +8,6 @@ func main() {
 	//  operators.Operators()
 	// homework01.VerifyIfCanDrive()
 	// vectors.Vectors()
-	forloop.Forloop()
+	// forloop.Forloop()
+	homework02.Homework02()
 }

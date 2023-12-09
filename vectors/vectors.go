@@ -25,4 +25,11 @@ func Vectors(){
 	fmt.Println(silice1)
 	fmt.Println(silice2)
 
+	//maps
+	fmt.Println("maps")
+	myMap := make(map[string]int)
+	myMap["key"] = 10
+	fmt.Println(myMap)
+	fmt.Println(myMap["key"])
+	
 }

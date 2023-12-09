@@ -6,7 +6,7 @@ func Homework02(){
 	array := [5]int{4, 2, 5, 6, 7}
     
     for idx, value := range array {
-		value = value + 20
+		value += 20
 		array[idx] = value
 	}
  

@@ -1,6 +1,7 @@
 package main
 
-import homework02 "gobases/homeworks2-4"
+import homeworks2_4 "gobases/homeworks2-4"
+
 
 
 func main() {
@@ -9,5 +10,6 @@ func main() {
 	// homework01.VerifyIfCanDrive()
 	// vectors.Vectors()
 	// forloop.Forloop()
-	homework02.Homework02()
+	// homework02.Homework02()
+	homeworks2_4.Homework03()
 }
